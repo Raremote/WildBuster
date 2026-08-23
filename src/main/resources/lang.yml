@@ -59,6 +59,9 @@ NO_PERMISSION: '&a&lWildBuster &7You cannot use this command.'
 # Called when a player places a chunk-buster without the required permission.
 NO_PERMISSION_PLACE: '&a&lWildBuster &7You don''t have access to place chunk-busters.'
 
+# Called when a player places a chunk-buster in a non-whitelisted world.
+NOT_ALLOWED_WORLD: '&a&lWildBuster &7You cannot place a chunk-buster in this world.'
+
 # Called when a player successfully placed a new chunk-buster
 PLACED_BUSTER: '&a&lWildBuster &7You placed a new chunk-buster and it should start running in {0} seconds.'
 

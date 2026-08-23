@@ -34,6 +34,7 @@ public final class Locale {
     public static final Locale MUST_PLACE_IN_CLAIM = new Locale("MUST_PLACE_IN_CLAIM");
     public static final Locale NO_PERMISSION = new Locale("NO_PERMISSION");
     public static final Locale NO_PERMISSION_PLACE = new Locale("NO_PERMISSION_PLACE");
+    public static final Locale NOT_ALLOWED_WORLD = new Locale("NOT_ALLOWED_WORLD");
     public static final Locale PLACED_BUSTER = new Locale("PLACED_BUSTER");
     public static final Locale RELOAD_SUCCESS = new Locale("RELOAD_SUCCESS");
     public static final Locale SAVE_SUCCESS = new Locale("SAVE_SUCCESS");

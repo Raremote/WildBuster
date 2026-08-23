@@ -50,6 +50,10 @@ blocked-materials:
 # Should a confirm menu be opened when placing a new chunk buster?
 confirm-placement: false
 
+# Only allow placing chunk-busters in these worlds.
+# Leave empty to allow all worlds.
+allowed-worlds: []
+
 # List of all the chunk-bunkers
 # Do not name 2 chunkbusters the same
 # Example:

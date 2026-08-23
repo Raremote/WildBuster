@@ -40,6 +40,14 @@ public final class BlocksListener implements Listener {
             return;
         }
 
+        //Checks if the buster is being placed in a whitelisted world
+        String worldName = e.getBlockPlaced().getWorld().getName();
+        if(!plugin.getSettings().allowedWorlds.isEmpty() &&
+                plugin.getSettings().allowedWorlds.stream().noneMatch(world -> world.equalsIgnoreCase(worldName))){
+            Locale.NOT_ALLOWED_WORLD.send(e.getPlayer());
+            return;
+        }
+
         List<PlayerBuster> busters = plugin.getBustersManager().getPlayerBusters(e.getPlayer());
 
         //Checks if the player has too many running busters
